@@ -1,4 +1,12 @@
 Use this file to record your reflection on this assignment.
 
 - Which methods did you decide to `overload`, and why?
+I decided to overload the Library constructor to make elevator an optional parameter with a default of true. Since most libraries have elevators, I decided to overload the constructor to make it so you only needed to specify when a library *didn't* have an elevator. I also decided to overload the printCollection method to allow you to print a few titles from the collection instead of all. I figured that if a library's collection was particularly large, someone might want to browse by looking at only the first few titles at a time. 
+
+I decided to overload the Cafe constructor to make having multiple floors an optional parameter with a default of 1. This is because Cafes only have one floor accessible to the public, so I wanted to make it that you only needed to specify when a Cafe had more than one floor in case there were additional floors for staff only. I chose to aditionally overload the sellCoffee method to allow a boolean value, reusableCup, to let patrons be more environmentally friendly in their purchases. If reusableCup is true, selling a cup of coffee doesn't deplete the number of cups the cafe has in stock. 
+
+I decided to overload the House constructor to add an optional parameter of hasTV. I live in Hubbard House, which traditionally does not have a TV in our living room, just a projector. The default value of hasTV is true in the original constructor because pretty much every other house does have a TV. Finally I decided to overload the moveIn method to add an enum parameter of the type of room the student moved into, either Single, Double, Triple, or Suite. I made this an optional parameter because it might not always be necessary information for the user to know. 
+
 - What worked, what didn't, what advice would you give someone taking this course in the future?
+
+Because I had given myself a strong start last week, this week's homework assignment was relatively painless. I appreciated the freedom in deciding for myself which methods I wanted to overload. I would say the goToFloor instructions were slightly confusing because I didn't realize at first that the default in a building (going to a specified floor regardless of adjacency) already existed even though I hadn't implemented the elevator parameter yet. However after talking to some friends in the class I figured it out. 
